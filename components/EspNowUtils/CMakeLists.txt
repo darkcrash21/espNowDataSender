@@ -1,15 +1,15 @@
 set(SOURCES
-    main.cpp
+    esp_now_utils.cpp
 )
 
 set(INCLUDES
     .
-    ../components/EspNowUtils/
 )
 
 set(REQS
-    nvs_flash
-    EspNowUtils
+    esp_event
+    esp_netif
+    esp_wifi
 )
 
 idf_component_register(

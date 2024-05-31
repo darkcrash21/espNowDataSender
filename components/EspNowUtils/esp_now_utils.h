@@ -20,7 +20,7 @@
 #include "esp_now.h"
 #include "esp_crc.h"
 
-#include "espNowTypes.h"
+#include "esp_now_types.h"
 
 namespace EspNowUtils
 {
